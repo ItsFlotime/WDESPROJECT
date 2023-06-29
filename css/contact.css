@@ -184,6 +184,9 @@ input {
     font-style: 'Fira Sans', sans-serif;
     padding: 15px 32px;
     cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
 }
 #honey {
       display:none;
