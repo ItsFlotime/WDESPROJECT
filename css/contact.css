@@ -184,3 +184,7 @@ input {
     cursor: pointer;
 }
 }
+
+#honey {
+    display: none;
+}
