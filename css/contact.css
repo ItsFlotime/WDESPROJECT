@@ -138,15 +138,15 @@ input {
 }
 
 #contactform {
-    border-width: 10px;
-    border-color: #FFDB58;
-    border-style: dashed;
+    background-color: #FFDB58;
+    border-radius: 20px;
     width: 30%;
     height: 65%;
     font-family: 'Fira Sans', sans-serif;
     font-weight:600;
     position: absolute;
     left: 35%;
+    font-size: 125%;
 }
 
 
