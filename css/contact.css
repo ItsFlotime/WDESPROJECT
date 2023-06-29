@@ -183,8 +183,7 @@ input {
     padding: 15px 32px;
     cursor: pointer;
 }
-}
-
 #honey {
-    display: none;
+      display:none;
+}
 }
