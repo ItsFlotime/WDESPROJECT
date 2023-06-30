@@ -94,8 +94,8 @@ display: flex;
 ul li {
     list-style:none;
     display: inline-block;
-    padding: 0px 25px;
-    font-size: 150%;
+    padding: 0px 15px;
+    font-size: 120%;
     font-family: 'Fira Sans', sans-serif;
 }
 
