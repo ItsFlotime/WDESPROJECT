@@ -1,0 +1,875 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+}
+
+
+#Wrapper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow-x: hidden;
+    
+}
+
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+.imgfit {
+    object-fit: cover;
+}
+
+/* Larger Screens (PC) */
+@media screen and (min-width: 1080px){
+    
+    #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:3%;
+top: -3%;
+    }
+        
+nav{
+    align-items: center;
+    background-color: #93C572;
+    height: 50px; 
+    display: flex;
+}
+.clear {
+    clear:both;
+}
+
+#Content1 {
+    width: 50%;
+    height: 700px;
+    background-color: #FFFFF0;
+    float:left;
+    position: relative;
+    text-align: center;
+    
+}
+#Content2{
+    width: 50%;
+    height:700px;
+    background-color: #FFFFF0;
+    float: left;
+    position:relative;
+    text-align: center;
+    
+    
+}
+#Content3 {
+    width:100%;
+    height:100px;
+    background-color:#FFDB58;
+    float: left;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+
+}
+
+
+.header {
+    height: 100px;
+    width: 100%;
+display: flex;
+    background-color:white;
+}
+
+.links {
+    text-align: left;
+    margin-left: 5%;
+}
+
+ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 150%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: white;
+    
+}
+#Name {
+    font-family: 'Fira Sans', sans-serif;
+    position:absolute;
+    font-size: 300%;
+    top: 2%;
+    left:40%;
+    color: black;
+    text-align: center;   
+    
+}
+#searchbar {
+    position: absolute;
+    left:80%;
+    display:none;
+}
+    
+#bigsearchbar {
+    margin-left: 40%;
+}
+
+input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 125%;
+}
+
+#Classes {
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    font-size: 350%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+#Consultation {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    font-size: 350%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+#class-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    height:700px;
+    object-fit: cover;
+}
+
+#cons-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    height:700px;
+    object-fit: cover;
+}
+    
+#ab {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 300%;
+}
+    #ab a{
+        text-decoration: none;
+        color: black;
+    }
+     #ab a:hover{
+        text-decoration: none;
+        color: white;
+    }
+ nav label, #hamburger, nav2 label, #search {
+    position: absolute;
+    display: none;
+        
+}
+    #cons-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+
+}
+    
+    #class-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+        
+ 
+
+}
+    
+    #socials{
+    text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+}
+
+
+
+
+
+
+/* Medium Screens */
+@media  screen and (min-width: 769px) and (max-width: 1079px){
+    
+    .clear {
+    clear:both;
+}
+   #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:3%;
+    top: -4%;
+}
+    
+    
+    
+#Content1 {
+    height: 700px;
+    background-color: #FFFFF0;
+    position: relative;
+    text-align: center;
+    
+}
+#Content2{
+    height:700px;
+    background-color: #FFFFF0;
+    position:relative;
+    text-align: center;
+    
+    
+}
+#Content3 {
+    width:100%;
+    height:200px;
+    background-color:#FFDB58;
+    float: left;
+}
+
+
+
+.footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+    top: 1;
+   
+
+}
+
+ #class-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+     height:700px;
+     object-fit: cover;
+}
+#cons-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    height:700px;
+    object-fit: cover;
+}
+#cons-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+
+}
+    
+    #class-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+}
+
+
+
+    
+input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 150%;
+}
+
+#Classes {
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    font-size: 500%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align:center;
+}
+
+#Consultation {
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    font-size: 500%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+    
+#Name {
+    font-family: 'Fira Sans', sans-serif;
+    position:absolute;
+    font-size: 300%;
+    top: 2%;
+    left:32%;
+    color: black;
+    text-align: center;   
+    
+
+    
+}
+    .header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+}
+    nav{
+     background-color: #93C572;
+        height:60px;
+    }
+    
+    ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 125%;
+    margin-top:2%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: white;
+      
+}
+    #searchbar {
+    position: absolute;
+    left: 75%;
+    top:33%;
+    display:none;
+}
+    
+    #bigsearchbar {
+    position: absolute;
+    left:75%;
+    top:15%;
+}
+    
+    input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+}
+
+    #ab {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 300%;
+}
+    #ab a{
+        text-decoration: none;
+        color: black;
+    }
+     #ab a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    nav label, #hamburger, nav2 label, #search {
+    position: absolute;
+    display: none;
+        
+}
+    #socials{
+    text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+}
+
+/*Tablet Screens*/
+@media screen and (min-width:481px) and (max-width:768px){
+    
+        .clear {
+    clear:both;
+}
+       #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:40%;
+top: -25%;
+    }
+
+#Content1 {
+    height: 700px;
+    background-color: #FFFFF0;
+    text-align: center;
+    position:relative;
+  
+}
+#Content2{
+    height:700px;
+    background-color: #FFFFF0;
+    text-align: center;
+    position:relative;
+   
+   
+}
+#Content3 {
+    width:100%;
+    height:200px;
+    background-color:#FFDB58;
+    float: left;
+}
+       #Name {
+  display: none;
+    visibility: hidden;
+}
+    
+
+    .footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+   
+
+}
+    #Classes {
+ position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 350%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align:center;
+}
+
+#Consultation {
+position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 350%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+     #class-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    object-fit: cover;
+    height:700px;
+  
+}
+
+#cons-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    object-fit: cover;
+     height:700px;
+  
+}
+    .header {
+    z-index: 1;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+        
+} 
+ 
+    #searchbar {
+    z-index: 2;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    display: none;
+        width:50%;
+    }
+    
+    
+    
+ input {
+    font-family: 'Fira Sans', sans-serif;
+   width:100%;
+     font-size:150%;
+     text-align: right;
+     
+}
+    
+    
+    
+    #ab {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 300%;
+}
+    #ab a{
+        text-decoration: none;
+        color: black;
+    }
+     #ab a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    
+  .links {
+    text-align:left;
+    display: none;
+      
+    
+}    
+    
+    nav input:checked ~ .links{
+        display:block;
+    }
+    
+     nav2 input:checked ~ #searchbar{
+        display:block;
+    }
+
+nav label {
+        position: fixed;
+        z-index: 2;
+        left: 5%;
+        top: 1.5%;
+        display: inline-block;
+        color: black;
+        background: white;
+        font-style: normal;
+        font-size: 3em;
+        padding: 10px;
+} 
+    nav2 label {
+        position: fixed;
+        z-index: 2;
+        left: 85%;
+        top: 2.5%;
+        display: inline-block;
+        color: black;
+        background: white;
+        font-style: normal;
+        font-size: 2.8em;
+        padding: 10px;
+} 
+    
+    
+    ul li a {
+    font-family: 'Fira Sans', sans-serif;   
+    position:fixed;
+    z-index:2;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    border-top: 1px solid #333;
+    background-color: #93C572;
+    font-size: 120%;
+    text-decoration: none;
+    color:black;
+}
+    
+    ul li{
+         padding 10px;
+        line-height: 2em;
+    }
+    ul{
+        position:fixed;
+        z-index: 3;
+        top: 14%;
+        
+    }
+
+ul li a:hover{
+    color: white;
+
+}
+    #cons-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+
+}
+    
+    #class-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+}
+    #socials{
+    text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+}
+
+
+
+/*Mobile*/
+@media screen and (min-width:340px) and (max-width:480px){
+    
+        .clear {
+    clear:both;
+}
+       #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:35%;
+top: -20%;
+    }
+
+#Content1 {
+    height: 700px;
+    background-color: #FFFFF0;
+    text-align: center;
+    position:relative;
+  
+}
+#Content2{
+    height:700px;
+    background-color: #FFFFF0;
+    text-align: center;
+    position:relative;
+   
+   
+}
+#Content3 {
+    width:100%;
+    height:200px;
+    background-color:#FFDB58;
+    float: left;
+}
+       #Name {
+    display: none;
+    visibility: hidden;
+}
+    
+
+    .footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+   
+
+}
+    #Classes {
+ position: absolute;
+    top: 50%;
+    left: 28%;
+    font-size: 400%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align:center;
+}
+
+#Consultation {
+position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 350%;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+     #class-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    object-fit: cover;
+    height:700px;
+  
+}
+
+#cons-image {
+    filter: brightness(60%);
+    filter: blur(90%);
+    object-fit: cover;
+     height:700px;
+  
+}
+    .header {
+    z-index: 1;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+        
+} 
+ 
+    #searchbar {
+    z-index: 2;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    display: none;
+        width:50%;
+    }
+    
+    input {
+    font-family: 'Fira Sans', sans-serif;
+   width:100%;
+     font-size:150%;
+     text-align: right;
+     
+}
+    
+     nav2 input:checked ~ #searchbar{
+        display:block;
+    }
+    
+    
+    nav2 label {
+        position: fixed;
+        z-index: 2;
+        left: 75%;
+        top: 2.5%;
+        display: inline-block;
+        color: black;
+        background: white;
+        font-style: normal;
+        font-size: 2.8em;
+        padding: 10px;
+} 
+    
+    
+    
+    #ab {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 300%;
+}
+    #ab a{
+        text-decoration: none;
+        color: black;
+    }
+     #ab a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    
+  .links {
+    text-align:left;
+    display: none;
+      
+    
+}    
+    
+    nav input:checked ~ .links{
+        display:block;
+    }
+
+    nav label {
+        position: fixed;
+        z-index: 2;
+        left: 10%;
+        top: 1.5%;
+        display: inline-block;
+        color: black;
+        background: white;
+        font-style: normal;
+        font-size: 3em;
+        padding: 10px;
+} 
+    
+    
+    ul li a {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;   
+    position:fixed;
+    z-index:2;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    border-top: 1px solid #333;
+    background-color: #93C572;
+    font-size: 120%;
+    color: black;
+}
+    
+    ul li{
+         padding 10px;
+        line-height: 2em;
+    }
+    ul{
+        position:fixed;
+        z-index: 3;
+        top: 14%;
+        
+    }
+
+ul li a:hover{
+    color: white;
+
+}
+    #cons-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+
+}
+    
+    #class-image:hover {
+    filter: brightness(100%);
+    filter: blur(100%);
+}
+    
+    #socials{
+    text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+}

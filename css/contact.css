@@ -1,0 +1,800 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+}
+
+
+#Wrapper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow-x: hidden;
+    
+}
+
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+/* Larger Screens (PC) */
+@media screen and (min-width: 1080px){
+
+ #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:3%;
+top: -3%;
+    }
+        
+nav{
+    align-items: center;
+    background-color: #93C572;
+    height: 50px; 
+    display: flex;
+}
+.clear {
+    clear:both;
+}
+.footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+
+}
+
+
+.header {
+    height: 100px;
+    width: 100%;
+display: flex;
+    background-color:white;
+}
+
+.links {
+    text-align: left;
+    margin-left: 5%;
+}
+
+ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 150%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: white;
+    
+}
+#Name {
+    font-family: 'Fira Sans', sans-serif;
+    position:absolute;
+    font-size: 300%;
+    top: 2%;
+    left:40%;
+    color: black;
+    text-align: center;   
+    
+}
+#searchbar {
+    position: absolute;
+    left:80%;
+    display:none;
+}
+    
+#bigsearchbar {
+    margin-left: 40%;
+}
+
+input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 125%;
+}
+
+ nav label, #hamburger, nav2 label, #search {
+    position: absolute;
+    display: none;
+        
+}
+   #socials{
+    text-align: center;    
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+#Content1 {
+    width: 100%;
+    height: 800px;
+
+}
+
+#contitle {
+    text-align: center;
+    margin-top: .5%;
+    margin-bottom: 2%;
+    font-size: 300%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#contactform {
+    background-color: #FFDB58;
+    border-radius: 20px;
+    width: 30%;
+    height: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600;
+    position: absolute;
+    left: 35%;
+    font-size: 125%;
+}
+
+
+
+
+
+.textlabel {
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.messagelabels {
+    margin-top: 1%;
+    margin-left: 4%;
+    float:left;
+    
+}
+
+#Messagein {
+    height: 200px;
+    width: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:400;
+    font-size: 100%;
+}
+.button {
+    background-color: #93C572;
+    border: none;
+    color: black;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 30px;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#honey {
+      display:none;
+}
+
+
+#contbutton {
+ margin-left: 4%;
+ margin-bottom:10%;   
+}
+}
+
+
+/* Medium Screens */
+@media  screen and (min-width: 769px) and (max-width: 1079px){
+    
+  .clear {
+    clear:both;
+}
+   #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:3%;
+    top: -4%;
+}
+    
+.footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+    top: 1;
+   
+
+}
+
+input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 150%;
+}
+
+#Name {
+    font-family: 'Fira Sans', sans-serif;
+    position:absolute;
+    font-size: 300%;
+    top: 2%;
+    left:32%;
+    color: black;
+    text-align: center;     
+}
+    .header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+}
+    nav{
+     background-color: #93C572;
+        height:60px;
+    }
+    
+    ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 125%;
+    margin-top:2%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: white;
+      
+}
+    #searchbar {
+    position: absolute;
+    left: 75%;
+    top:33%;
+    display:none;
+}
+    
+    #bigsearchbar {
+    position: absolute;
+    left:70%;
+    top:15%;
+}
+    
+    input {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+}
+    nav label, #hamburger, nav2 label, #search {
+    position: absolute;
+    display: none;
+        
+}
+      #socials{
+      text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+    
+    #Content1 {
+    width: 100%;
+    height: 800px;
+
+}
+    #contitle {
+    text-align: center;
+    margin-top: .5%;
+    margin-bottom: 2%;
+    font-size: 300%;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+    #contactform {
+    background-color: #FFDB58;
+    border-radius: 20px;
+    width: 50%;
+    height: 65%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600;
+    position: absolute;
+    left: 25%;
+    font-size: 115%;
+}
+    #honey {
+      display:none;
+}
+  .button {
+    background-color: #93C572;
+    border: none;
+    color: black;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+}
+   .textlabel {
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.messagelabels {
+    margin-top: 1%;
+    margin-left: 4%;
+    float:left;
+    
+}
+
+#Messagein {
+    height: 200px;
+    width: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:400;
+    font-size: 100%;
+} 
+#contbutton {
+ margin-left: 4%;
+ margin-bottom:10%;   
+} 
+    
+}
+
+/* Tablet Screens */
+@media  screen and (min-width: 481px) and (max-width: 768px){
+    
+        .clear {
+    clear:both;
+}
+       #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:40%;
+top: -25%;
+    }
+       #Name {
+  display: none;
+    visibility: hidden;
+}
+ 
+    .footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+   
+
+}
+    .header {
+    z-index: 1;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+        
+} 
+ 
+    #searchbar {
+    z-index: 2;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    display: none;
+        width:50%;
+    }
+    
+    
+    
+ input {
+    font-family: 'Fira Sans', sans-serif;
+   width:100%;
+     font-size:150%;
+     text-align: right;
+     
+}
+    
+    
+  
+  .links {
+    text-align:left;
+    display: none;
+      
+    
+}    
+    
+    nav input:checked ~ .links{
+        display:block;
+    }
+    
+     nav2 input:checked ~ #searchbar{
+        display:block;
+    }
+
+nav label {
+        position: fixed;
+        z-index: 2;
+        left: 5%;
+        top: 1.5%;
+        display: inline-block;
+        color: black;
+        background: transparent;
+        font-style: normal;
+        font-size: 3em;
+        padding: 10px;
+} 
+    nav2 label {
+        position: fixed;
+        z-index: 2;
+        left: 85%;
+        top: 2.5%;
+        display: inline-block;
+        color: black;
+        background: transparent;
+        font-style: normal;
+        font-size: 2.8em;
+        padding: 10px;
+} 
+    ul li a {
+    font-family: 'Fira Sans', sans-serif;   
+    position:fixed;
+    z-index:2;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    border-top: 1px solid #333;
+    background-color: #93C572;
+    font-size: 120%;
+    text-decoration: none;
+    color:black;
+}
+    
+    ul li{
+         padding 10px;
+        line-height: 2em;
+    }
+    ul{
+        position:fixed;
+        z-index: 3;
+        top: 14%;
+        
+    }
+
+ul li a:hover{
+    color: white;
+
+}
+    #socials{
+       text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+    #Content1 {
+    width: 100%;
+    height: 800px;
+
+}
+    #contitle {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 300%;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+    #contactform {
+    background-color: #FFDB58;
+    border-radius: 20px;
+    width: 75%;
+    height: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600;
+    position: absolute;
+    left: 13.5%;
+    font-size: 115%;
+}
+    #honey {
+      display:none;
+}
+  .button {
+    background-color: #93C572;
+    border: none;
+    color: black;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+   .textlabel {
+    margin-top: 3%;
+    margin-left: 1%;
+    width:75%;
+}
+
+.messagelabels {
+    margin-top: 1%;
+    margin-left: 4%;
+    float:left;
+    
+}
+
+#Messagein {
+    height: 200px;
+    width: 93%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:400;
+    font-size: 100%;
+} 
+    
+#contbutton {
+ margin-left: 4%;
+ margin-bottom:10%;  
+    width: 35%;
+}
+}
+    
+    
+/* Mobilw */
+@media  screen and (min-width: 340px) and (max-width: 480px){
+    
+        .clear {
+    clear:both;
+}
+       #Logo {
+position:absolute;
+width: 150px;
+height:150px;
+left:40%;
+top: -25%;
+    }
+       #Name {
+  display: none;
+    visibility: hidden;
+}
+ 
+    .footer {
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #93C572;
+    bottom: 0;
+   
+
+}
+    .header {
+    z-index: 1;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+        
+} 
+ 
+    #searchbar {
+    z-index: 2;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    display: none;
+        width:50%;
+    }
+    
+    
+    
+ input {
+    font-family: 'Fira Sans', sans-serif;
+   width:100%;
+     font-size:150%;
+     text-align: right;
+     
+}
+    
+    
+  
+  .links {
+    text-align:left;
+    display: none;
+      
+    
+}    
+    
+    nav input:checked ~ .links{
+        display:block;
+    }
+    
+     nav2 input:checked ~ #searchbar{
+        display:block;
+    }
+
+nav label {
+        position: fixed;
+        z-index: 2;
+        left: 5%;
+        top: 1.5%;
+        display: inline-block;
+        color: black;
+        background: transparent;
+        font-style: normal;
+        font-size: 3em;
+        padding: 10px;
+} 
+    nav2 label {
+        position: fixed;
+        z-index: 2;
+        left: 85%;
+        top: 2.5%;
+        display: inline-block;
+        color: black;
+        background: transparent;
+        font-style: normal;
+        font-size: 2.8em;
+        padding: 10px;
+} 
+    ul li a {
+    font-family: 'Fira Sans', sans-serif;   
+    position:fixed;
+    z-index:2;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    border-top: 1px solid #333;
+    background-color: #93C572;
+    font-size: 120%;
+    text-decoration: none;
+    color:black;
+}
+    
+    ul li{
+         padding 10px;
+        line-height: 2em;
+    }
+    ul{
+        position:fixed;
+        z-index: 3;
+        top: 14%;
+        
+    }
+
+ul li a:hover{
+    color: white;
+
+}
+    #socials{
+       text-align: center; 
+        
+        
+    }
+    .fa{
+        font-size: 300%;
+        text-align:center;
+        text-decoration:none;
+        color: black;
+        padding:25px;
+    }
+    .fa:hover{
+        color:white;
+    }
+    #Content1 {
+    width: 100%;
+    height: 800px;
+
+}
+    #contitle {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 300%;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+    #contactform {
+    background-color: #FFDB58;
+    border-radius: 20px;
+    width: 75%;
+    height: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600;
+    position: absolute;
+    left: 13.5%;
+    font-size: 115%;
+}
+    #honey {
+      display:none;
+}
+  .button {
+    background-color: #93C572;
+    border: none;
+    color: black;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+   .textlabel {
+    margin-top: 3%;
+    margin-left: 1%;
+    width:75%;
+}
+
+.messagelabels {
+    margin-top: 1%;
+    margin-left: 4%;
+    float:left;
+    
+}
+
+#Messagein {
+    height: 200px;
+    width: 93%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:400;
+    font-size: 100%;
+} 
+    
+#contbutton {
+ margin-left: 4%;
+ margin-bottom:10%;  
+    width: 35%;
+}   
+    
+    
+}
